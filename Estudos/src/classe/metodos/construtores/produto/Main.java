@@ -16,8 +16,8 @@ public class Main {
 		p1.preco = 4356.89;
 		p1.desconto = 0.25;
 
-		//Seguindo regra do construtor
-		Produto p2 = new Produto("Celular");
+		//Seguindo regra do construtor padrão
+		Produto p2 = new Produto();
 //		p2.nome = "Celular";
 		p2.preco = 6000.00;
 		p2.desconto = 0.15;

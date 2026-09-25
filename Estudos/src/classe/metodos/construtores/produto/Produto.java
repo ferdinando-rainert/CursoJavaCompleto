@@ -10,6 +10,9 @@ public class Produto {
 	Produto(String nomeInicial){
 		nome = nomeInicial;
 	}
+	Produto(){
+		
+	}
 	
 	double precoComDesconto(){		
 		double valorfinal =  preco - (preco * desconto);
