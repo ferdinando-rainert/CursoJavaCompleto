@@ -1,4 +1,4 @@
-package classeVSinstancia;
+package classeVSinstancia.areacirc;
 
 public class AreaCirc {
 	
