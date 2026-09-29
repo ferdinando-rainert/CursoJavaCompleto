@@ -20,7 +20,24 @@ public class Main {
 		d2.mes = 12;
 		System.out.println(d1.obterData());
 		System.out.println(d2.obterData());
+		
+		voltarDataPadrao(d1);
+		System.out.println(d1.obterData());
+		
+		int c=10;
+		alterarPrimitivo(c);
+		
+		System.out.println(c);
 
 	}
-
+	
+	static void voltarDataPadrao(Data d) {
+		d.dia = 1;
+		d.mes = 1;
+		d.ano = 1970;
+	}
+	
+	static void alterarPrimitivo(int a) {
+		a++;
+	}
 }
